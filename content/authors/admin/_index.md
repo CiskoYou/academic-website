@@ -1,11 +1,10 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
+  - course: PhD in Statistics
+    institution: Ottawa University
+    year: 2022
   - course: MEng in Artificial Intelligence
     institution: Massachusetts Institute of Technology
     year: 2009
@@ -13,27 +12,25 @@ education:
     institution: Massachusetts Institute of Technology
     year: 2008
 email: ""
-first_name: Alice
+first_name: Youssouph
 highlight_name: true
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-last_name: Wu
+- Data Science
+- Machine Learning
+- Financial Mathematics
+- Programming (SQL, Python, R)
+last_name: Cissokho
 organizations:
-- name: Stanford University
+- name: Ottawa University
   url: https://www.stanford.edu/
-role: Professor of Artificial Intelligence
+role: Lab coordinator 
 social:
 - icon: envelope
   icon_pack: fas
   link: /#contact
 - display:
     header: true
-  icon: twitter
   icon_pack: fab
-  label: Follow me on Twitter
-  link: https://twitter.com/GeorgeCushen
 - icon: graduation-cap
   icon_pack: fas
   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
@@ -45,12 +42,10 @@ social:
   link: https://www.linkedin.com/
 - icon: cv
   icon_pack: ai
-  link: uploads/resume.pdf
-status:
-  icon: ☕️
+  link: uploads/myresume.pdf
 superuser: true
-title: Alice Wu 吳恩達
+title: Youssouph Cissokho
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Youssouph Cissokho is a Senior Specialist, Statistics Teaching Laboratory coordinator at university of Ottawa. His research interests include the estimation of cluster indices thanks to a modern theory of multivariate, regularly varying time series. His background is in data science, applied and computational mathematics. He is mostly interested in data science and machine learning.
 {style="text-align: justify;"}
