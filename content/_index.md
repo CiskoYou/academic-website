@@ -3,22 +3,12 @@ date: "2022-10-24"
 sections:
 - block: hero
   content:
-    cta:
-      label: '**Get Started**'
-      url: https://wowchemy.com/templates/
     cta_alt:
       label: Ask a question
       url: https://discord.gg/z8wNYzb
-    cta_note:
-      label: '<div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/wowchemy-hugo-themes"
-        data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star
-        Wowchemy Website Builder</a></div><div style="text-shadow: none;"><a class="github-button"
-        href="https://github.com/wowchemy/starter-hugo-academic" data-icon="octicon-star"
-        data-size="large" data-show-count="true" aria-label="Star">Star the Academic
-        template</a></div>'
     image:
       filename: hero-academic.png
-    title: Hugo Academic Theme
+    title: My website
   design:
     background:
       gradient_end: '#1976d2'
@@ -45,6 +35,7 @@ sections:
       icon_pack: fas
       name: Photography
     title: Skills
+  id: skills
 - block: experience
   content:
     date_format: Jan 2006
@@ -73,6 +64,7 @@ sections:
     title: Experience
   design:
     columns: "2"
+  id: experience
 - block: accomplishments
   content:
     date_format: Jan 2006
@@ -140,12 +132,12 @@ sections:
     filters:
       folders:
       - project
-    title: Projects
+    title: Blogs-Projects
   design:
     columns: "1"
     flip_alt_rows: false
     view: showcase
-  id: projects
+  id: blogs
 - block: markdown
   content:
     subtitle: ""
@@ -159,11 +151,11 @@ sections:
       featured_only: true
       folders:
       - publication
-    title: Featured Publications
+    title: Publications
   design:
     columns: "2"
     view: card
-  id: featured
+  id: publications
 - block: collection
   content:
     filters:
