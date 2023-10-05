@@ -5,9 +5,12 @@ education:
   - course: PhD in Statistics
     institution: Ottawa University
     year: 2022
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
+  - course: M.Sc. in Statistics
+    institution: Ottawa University
+    year: 2018
+  - course: M.Sc. in Statistics
+    institution: 
+    year: 2018
   - course: BSc in Artificial Intelligence
     institution: Massachusetts Institute of Technology
     year: 2008
@@ -22,8 +25,8 @@ interests:
 last_name: Cissokho
 organizations:
 - name: Ottawa University
-  url: https://www.stanford.edu/
-role: Lab coordinator 
+  url: https://www.uottawa.ca/en
+role: Senior lab coordinator in statistics
 social:
 - icon: envelope
   icon_pack: fas
@@ -33,7 +36,7 @@ social:
   icon_pack: fab
 - icon: graduation-cap
   icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://ruor.uottawa.ca/handle/10393/44179
 - icon: github
   icon_pack: fab
   link: https://github.com/gcushen

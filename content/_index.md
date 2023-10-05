@@ -22,37 +22,48 @@ sections:
 - block: features
   content:
     items:
-    - description: 90%
+    - description: 'I have 5 years of experience using R'
       icon: r-project
       icon_pack: fab
       name: R
-    - description: 100%
-      icon: chart-line
-      icon_pack: fas
-      name: Statistics
-    - description: 10%
-      icon: camera-retro
-      icon_pack: fas
-      name: Photography
+    - description: 'I have 1 year of experience using Overleaf'
+      icon: overleaf
+      icon_pack: ai
+      name: Overleaf
+    - description: 'I have 1 year of experience using Sql'
+      icon: sql
+      icon_pack: custom
+      name: Sql
+    - description: 'I have 1 year of experience using Python'
+      icon: python
+      icon_pack: custom
+      name: Python
     title: Skills
   id: skills
 - block: experience
   content:
     date_format: Jan 2006
     items:
-    - company: GenCoin
+    - company: PIMS/Awesense
       company_logo: org-gc
-      company_url: ""
-      date_end: ""
-      date_start: "2021-01-01"
+      company_url: https://www.pims.math.ca/
+      link: uploads/pims-awesense.pdf
+      date_end: "2022-07-01"
+      date_start: "2022-07-27"
       description: |2-
           Responsibilities include:
 
           * Analysing
           * Modelling
           * Deploying
-      location: California
-      title: CEO
+      description: |2-
+          Responsibilities include:
+
+          * Analysing
+          * Modelling
+          * Deploying
+      location: Ottawa
+      title: PIMS research project
     - company: University X
       company_logo: org-x
       company_url: ""
