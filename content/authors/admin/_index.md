@@ -8,12 +8,12 @@ education:
   - course: M.Sc. in Statistics
     institution: Ottawa University
     year: 2018
-  - course: M.Sc. in Statistics
-    institution: 
-    year: 2018
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: M.Sc. in Mathematics and statistics
+    institution: Université Gaston Berger du senegal
+    year: 2015
+  - course: Master in Mathematics and statistics
+    institution: AIMS-Senegal
+    year: 2014
 email: ""
 first_name: Youssouph
 highlight_name: true
@@ -21,7 +21,7 @@ interests:
 - Data Science
 - Machine Learning
 - Financial Mathematics
-- Programming (SQL, Python, R)
+- Programming (SQL, Python, R, Julia, RmarkDown)
 last_name: Cissokho
 organizations:
 - name: Ottawa University

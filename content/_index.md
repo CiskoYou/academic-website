@@ -44,8 +44,16 @@ sections:
   content:
     date_format: Jan 2006
     items:
-    - company: PIMS/Awesense
-      company_logo: org-gc
+    - company: Cité collègiale
+      company_logo: cite
+      company_url: https://www.collegelacite.ca
+      date_end:   "2023-04-30"
+      date_start: "2023-01-15"
+      description: Taught contrôle statistique de la qualité. 
+      location: Ottawa
+      title: Part time professor of mathematics and statistics
+    - company: PIMS and Awesense
+      company_logo: pims
       company_url: https://www.pims.math.ca/
       link: uploads/pims-awesense.pdf
       date_end: "2022-07-01"
@@ -56,22 +64,36 @@ sections:
           * Analysing
           * Modelling
           * Deploying
+      location: Ottawa
+      title: PIMS research project
+    - company: Ario and University of Ottawa
+      company_logo: Uotta
+      company_url: https://www.uottawa.ca/en
+      date_end: "2020-01-15"
+      date_start: "2019-09-01"
       description: |2-
           Responsibilities include:
 
-          * Analysing
-          * Modelling
-          * Deploying
+          * Classification of time series
+          * testing different machine learning algorithms
       location: Ottawa
-      title: PIMS research project
-    - company: University X
-      company_logo: org-x
-      company_url: ""
-      date_end: "2020-12-31"
-      date_start: "2016-01-01"
-      description: Taught electronic engineering and researched semiconductor physics.
-      location: California
-      title: Professor of Semiconductor Physics
+      title: Intership
+    - company: University of Ottawa
+      company_logo: Uotta
+      company_url: https://www.uottawa.ca/en
+      date_end: "2022-12-31"
+      date_start: "2019-01-15"
+      description: Taught applied probability; Probability and Statistics for engineers; Foundations of probability. 
+      location: Ottawa
+      title: Part time professor of mathematics and statistics
+    - company: Collège universel
+      company_logo: uni
+      company_url: https://collegeuniversel.ca/en/page-daccueil-en/
+      date_end: "2022-12-31"
+      date_start: "2019-01-15"
+      description: Taught Calcul Intégral; Calcul differentiel; Calculus I and II; Linear algebra. 
+      location: Gatineau
+      title: Part time professor of mathematics and statistics
     title: Experience
   design:
     columns: "2"
@@ -80,13 +102,13 @@ sections:
   content:
     date_format: Jan 2006
     items:
-    - certificate_url: https://www.coursera.org
-      date_end: ""
-      date_start: "2021-01-25"
+    - certificate_url: https://www.pims.math.ca/
+      date_end: "2022-06-29"
+      date_start: "2022-06-11"
       description: ""
-      organization: Coursera
-      organization_url: https://www.coursera.org
-      title: Neural Networks and Deep Learning
+      organization: pims
+      organization_url: https://www.pims.math.ca/
+      title: 2022 math to power industry workshop
       url: ""
     - certificate_url: https://www.edx.org
       date_end: ""
