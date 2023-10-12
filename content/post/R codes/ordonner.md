@@ -9,7 +9,7 @@ output:
   pdf_document:
     toc: yes
     number_sections: true
-  blogdown::html_document2:
+  blogdown::html_page:
     toc: true
     number_sections: true
 header-includes:
@@ -17,15 +17,13 @@ header-includes:
 - \frenchbsetup{StandardLayout}
 - \hypersetup{colorlinks=true, urlcolor = {blue}, linkcolor = {blue}}
 - \setlength{\OuterFrameSep}{6pt}
-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-- <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 ---
 
 ***
 
 
 
-
+$ \sin(x)+19899-x^4$
 
 Il est souvent nécessaire de classer un tableau de données selon les valeurs d'une ou de plusieurs de ses colonnes. Cela permet en général d'avoir une meilleure vision du jeu de données afin de mieux les comprendre, les organiser et rechercher l'information précise que l'on cherche. Cette manipulation est utile dans de nombreux cas, par exemple :
 
@@ -33,16 +31,6 @@ Il est souvent nécessaire de classer un tableau de données selon les valeurs d
 * **Classer des données par ordre chronologique**. C'est indispensable si on veut pouvoir afficher et visualiser ensuite l'évolution temporelle de nos variables.
 
 
-
-`\[x^2+4344\]`.
-
-`$`
-w_{t+1} = (1 + r_{t+1}) s(w_t) + y_{t+1}
-`$`
-
-('\sin(x)']
-
-ok
 # D'abord une petite illustration.
 
 Si on ne dispose que d'un simple vecteur, alors la fonction ``` sort ``` fait très bien l'affaire, comme on peut le voir sur l'exemple suivant :

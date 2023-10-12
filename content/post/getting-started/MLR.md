@@ -1,7 +1,7 @@
 ---
 title: "Lab-3: Multiple linear regression"
 author: "Youssouph Cissokho"
-date: "2023-10-09 14:04:46"
+date: "2023-10-12 02:37:59"
 fontsize: 11pt 
 header-inlcude:
   \usepackage{fvextra}
@@ -52,19 +52,21 @@ In this presentation, we will do the following
 A regression model that involves more than `one regressor variable` is called a multiple regression model. Fitting and analyzing these models is discussed in this lab. The results are extensions of those in `lab2` for simple linear regression.
 
 The `multiple linear regression model with k` regressors (predictors) is given by 
+
 $$
 y=\beta_{0}+\beta_{1} x_{1}+\beta_{2} x_{2}+\ldots+\beta_{k} x_{k}+\varepsilon
 $$
+
 where 
 
-* `\(\beta_i,\;\;i=1\cdots,k\)` are the regression coefficients; 
-* `\(\varepsilon\)` is the random error i.e.
+* $\beta_i,\;\;i=1\cdots,k$ are the regression coefficients; 
+* $\varepsilon$ is the random error i.e.
 $$
 \epsilon \sim N(0, \sigma^2).
 $$
-ie they are *independent and identically distributed* (iid) normal random variables with mean `\(0\)` and variance `\(\sigma^2\)`.
+ie they are *independent and identically distributed* (iid) normal random variables with mean `\(0\)` and variance $\sigma^2$.
 
-`Goal` to estimate the regression coefficients    `\(\beta_i,\;\;i=1\cdots,k\)`.
+`Goal` to estimate the regression coefficients    $\beta_i,\;\;i=1\cdots,k$.
 
 ## View structure of the dataset {#12}
 
@@ -122,7 +124,7 @@ library(GGally)
 ggpairs(data_parent, columns = 2:4)
 ```
 
-<img src="/post/getting-started/Lab_3 Multiple linear regression_files/figure-html/unnamed-chunk-1-1.png" width="672" />
+<img src="/post/getting-started/MLR_files/figure-html/unnamed-chunk-1-1.png" width="672" />
 
 # Multiple linear regression {#1}
 
